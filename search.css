@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.nav
+{
+    text-align: right;
+}
+
+#main 
+{
+    text-align: center;
+}
+
+#main > h1 
+{
+    text-align: left;
+    font-size:22px;
+    color: #ff5555;
+    margin-left: 25px;
+}
+
+#frmsearch > input[type="text"]
+{
+    padding: 5px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    height: 44px;
+    max-width: 584px;
+    width: calc(632px + 6px);
+}
+
+#frmsearch > input[type="submit"]
+{
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+}
+
+#frmidadv
+{
+    display: relative;
+    text-align: right;
+    width: 680px;;
+}
+
+#frmidadv > div 
+{
+    display: grid;
+    grid-template-columns: 200px 450px;    
+    padding: 5px;
+}
+
+#frmidadv > div > input[type="text"]
+{
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+
+.googleadv
+{
+    padding: 5px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+#frmidadv > div > input[type="text"]:hover,
+#frmidadv > div > input[type="text"]:focus
+{
+    border: 1px solid blue;
+}
+
+#frmidadv > div, #main > p
+{
+    margin-left: 25px;
+    text-align: left;
+}
+

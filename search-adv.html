@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- 
+    Author: hams@misena.edu.co    
+    Project: 0
+    url: https://github.com/InicioFin/search.git
+-->
+<html lang="en">
+    <head>
+        <title>Project 0</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="search.css" type="text/css">
+    </head>
+    <body id="searchadv">
+        <div id="main">
+            <div class="nav"><a href="index.html">Google Search</a></div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"> 
+            <h1>Advanced  Search</h1>
+            <p>Find pages with...</p> 
+            <form action="https://www.google.com/search" method="get" id="frmidadv">                     
+                <div>
+                    <label for="words-all">all these words: </label>
+                    <input id="words-all" name="as_q" type="text">
+                </div>
+                <div>
+                    <label for="words-exact">this exact word or phrase: </label>
+                    <input id="words-exact" name="as_epq" type="text">
+                </div>
+                <div>
+                    <label for="words-any">any of these words: </label>
+                    <input id="words-any" name="as_oq" type="text">
+                </div>
+                <div>
+                    <label for="words-none">none of these words: </label>
+                    <input id="words-none" name="as_eq" type="text">
+                </div>                
+                <input type="submit" value="Advanced Search" class="googleadv">                
+            </form>
+        </div>
+    </body>
+</html>
